@@ -1,7 +1,8 @@
 services:
-  app-csv:
+  wapp_csv:
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - .:/app
+    
