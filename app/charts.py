@@ -13,7 +13,7 @@ def generatePieChart(labels,values):
   fig,ax = plt.subplots()
   ax.pie(values,labels=labels)
   ax.axis('equal')
-  plt.savefig('pie.png')
+  plt.savefig('chart_pie.png')
   plt.close()
 
 #manejo dual desde el run y el shell
